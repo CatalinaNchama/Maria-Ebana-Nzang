@@ -1,0 +1,531 @@
+<!DOCTYPE html>  
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MANENTECH • María Amparo Ndoho | Diseñadora UI/UX</title>
+
+  <!-- Inter + FontAwesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>Iniciando MANENTECH…</p>
+  </div>
+
+  <!-- Background canvas -->
+  <canvas id="bg"></canvas>
+
+  <!-- Header -->
+  <header class="site-header">
+     <a href="#home" class="logo">
+      <img src="assets/Capturelog.PNG" alt="Logo MANENTECH" class="logo-img">
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menú">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+
+    <!-- Nav -->
+    <nav class="nav">
+      <a href="#home" class="nav-link">Inicio</a>
+      <a href="#about" class="nav-link">Sobre mí</a>
+      <a href="#skills" class="nav-link">Habilidades</a>
+      <a href="#experience" class="nav-link">Experiencia</a>
+      <a href="#cv" class="nav-link">CV & Resume</a>
+      <a href="#certificates" class="nav-link">Certificados</a>
+      <a href="#projects" class="nav-link">Proyectos</a>
+      <a href="#achievements" class="nav-link">Logros</a>
+      <a href="#contact" class="nav-link cta">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero reveal">
+    <div class="hero-inner">
+      <div class="hero-avatar">
+        <span class="status-badge">Disponible para trabajar</span>
+      </div>
+
+      <p class="eyebrow">• Diseñadora UI/UX • Asistente Virtual • Soporte Técnico</p>
+
+      <h1>
+  Soy <span class="accent">María Amparo</span><br>
+  Diseño <span class="highlight">experiencias digitales</span> 
+  que son <span class="highlight">intuitivas</span> y <span class="highlight">efectivas</span>
+</h1>
+
+<p class="sub">
+  Diseñadora UI/UX con formación en <strong>Ciencias de la Computación</strong>, 
+  especializada en <strong>diseño digital</strong>, <strong>soporte técnico</strong> y 
+  <strong>gestión de proyectos</strong>. Mi enfoque combina creatividad y tecnología para crear 
+  productos digitales que generan impacto real en los usuarios.
+</p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn primary pulse">🚀 Colaboremos</a>
+        <a href="#projects" class="btn ghost">🎨 Ver mi trabajo</a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:cndohoebana@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+<section id="about" class="about section reveal">
+  <div class="container about-grid">
+    <div class="about-text">
+      <h2>Sobre Mí</h2>
+<p class="lead">
+  Soy <strong>María Amparo</strong> — Diseñadora UI/UX, Asistente Virtual 
+  y Especialista en Soporte Técnico con una base sólida en 
+  <strong>Ciencias de la Computación</strong>. Me apasiona transformar ideas 
+  en soluciones digitales <em>funcionales, estéticas y centradas en el usuario</em>.
+</p>
+<p>
+  Cuento con experiencia en <strong>diseño web responsivo</strong>, 
+  <strong>resolución de problemas técnicos</strong>, y <strong>optimización de flujos de trabajo</strong>. 
+  Además, he trabajado en coordinación de proyectos y comunicación organizacional, 
+  lo que me permite adaptarme a equipos multidisciplinarios y entornos dinámicos.
+</p>
+<p>
+  Mi fortaleza está en integrar <strong>creatividad</strong>, 
+  <strong>conocimientos técnicos</strong> y <strong>habilidades organizativas</strong> 
+  para aportar valor a empresas, instituciones y proyectos innovadores.
+</p>
+<p>
+  A lo largo de mi trayectoria he participado en <strong>roles de liderazgo estudiantil</strong> 
+  y en <strong>proyectos colaborativos</strong>, donde desarrollé 
+  competencias en <strong>gestión de equipos</strong>, <strong>planificación estratégica</strong> 
+  y <strong>toma de decisiones</strong>. Estas experiencias fortalecieron mi capacidad para 
+  comunicarme de manera efectiva, resolver problemas de forma creativa y trabajar bajo presión.
+</p>
+<p>
+  Estoy especialmente interesada en <strong>diseño de experiencias digitales inclusivas</strong>, 
+  que combinen accesibilidad, innovación y rendimiento. Mi objetivo es seguir creciendo en el campo 
+  de la tecnología, aportando soluciones que impacten positivamente en los usuarios y contribuyan 
+  al éxito de las organizaciones.
+</p>
+
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <h3>3+</h3>
+            <p>Años de experiencia</p>
+          </div>
+          <div class="stat-card">
+            <h3>30+</h3>
+            <p>Proyectos completados</p>
+          </div>
+          <div class="stat-card">
+            <h3>2+</h3>
+            <p>Roles de Liderazgo</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="about-photo">
+        <div class="photo-card">
+          <img src="assets/maria.jpg" alt="Retrato de María Amparo" class="profile-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section reveal">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Habilidades Técnicas</h3>
+          <div class="bar" data-skill="Investigación" data-value="88"></div>
+          <div class="bar" data-skill="Soporte Técnico & Solución de Problemas" data-value="87"></div>
+          <div class="bar" data-skill="Microsoft Office Suite" data-value="85"></div>
+          <div class="bar" data-skill="Google Workspace, Trello, Asana, Zoom, Calendly" data-value="80"></div>
+          <div class="bar" data-skill="Photoshop, Illustrator, CorelDRAW" data-value="79"></div>
+          <div class="bar" data-skill="Diseño UI/UX (Figma & Canva)" data-value="79"></div>
+          <div class="bar" data-skill="Gestión de Email, Calendario y CRM" data-value="79"></div>
+          <div class="bar" data-skill="No-code Tools (Framer & Webflow)" data-value="79"></div>
+          <div class="bar" data-skill="Diseño Web Responsivo (HTML, CSS, JS)" data-value="79"></div>
+          <div class="bar" data-skill="Fundamentos de Redes" data-value="80"></div>
+          <div class="bar" data-skill="SEO Básico" data-value="75"></div>
+        </div>
+        <div class="card">
+          <h3>Habilidades Blandas</h3>
+          <div class="bar" data-skill="Actitud Positiva y Amigable" data-value="92"></div>
+          <div class="bar" data-skill="Excelente Comunicación" data-value="90"></div>
+          <div class="bar" data-skill="Autodirigida" data-value="90"></div>
+          <div class="bar" data-skill="Comunicación Interpersonal" data-value="88"></div>
+          <div class="bar" data-skill="Planificación de Proyectos" data-value="88"></div>
+          <div class="bar" data-skill="Relación con Clientes" data-value="88"></div>
+          <div class="bar" data-skill="Multitarea y Toma de Decisiones" data-value="80"></div>
+          <div class="bar" data-skill="Trabajo Bajo Presión" data-value="80"></div>
+          <div class="bar" data-skill="Gestión de Tiempo y Equipos" data-value="85"></div>
+          <div class="bar" data-skill="Adaptabilidad y Creatividad" data-value="80"></div>
+          <div class="bar" data-skill="Atención al Detalle" data-value="80"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section id="experience" class="section alt reveal">
+    <div class="container">
+      <h2>Experiencia</h2>
+      <ol class="timeline">
+        <li>
+          <div class="tl-point"></div>
+          <div class="tl-card card">
+            <h3>Asistente de TI (Prácticas) • Valley View University</h3>
+            <p class="muted">Accra, Ghana • Jun 2023 – 2025</p>
+            <ul class="bullets">
+              <li>Brindé soporte técnico a personal y estudiantes, resolviendo problemas de hardware y software.</li>
+              <li>Mantuve los sistemas de red del campus y apoyé la seguridad de los datos.</li>
+              <li>Apoyé la operación de plataformas digitales y mejoras de procesos.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="tl-point"></div>
+          <div class="tl-card card">
+            <h3>Secretaria • Ladies in Tech, Valley View University</h3>
+            <p class="muted">Accra, Ghana • 2024 – 2025</p>
+            <ul class="bullets">
+              <li>Gestioné tareas administrativas, agendas y comunicaciones.</li>
+              <li>Coordiné eventos y talleres para promover a mujeres en la tecnología.</li>
+              <li>Mantuve registros precisos para asegurar operaciones eficientes.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="tl-point"></div>
+          <div class="tl-card card">
+            <h3>Presentadora de Radio & Representante Estudiantil • Valley View University</h3>
+            <p class="muted">Accra, Ghana • 2023 – 2025</p>
+            <ul class="bullets">
+              <li>Presenté programas radiales para promover la cultura y actividades del campus.</li>
+              <li>Defendí los intereses de los estudiantes en lo académico y extracurricular.</li>
+              <li>Enseñé español a la audiencia a través de sesiones interactivas.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="tl-point"></div>
+          <div class="tl-card card">
+            <h3>Diseñadora Gráfica • International Students Association</h3>
+            <p class="muted">Valley View University • 2022</p>
+            <ul class="bullets">
+              <li>Creé materiales promocionales para eventos, aumentando la participación estudiantil.</li>
+              <li>Colaboré con equipos para alinear los diseños con los objetivos de los eventos.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div class="tl-point"></div>
+<div class="tl-card card">
+  <h3>Emprendedora / Gestión de Negocio Familiar y Propio</h3>
+  <p class="muted">Malabo, Guinea Ecuatorial • 2018 – Presente</p>
+  <ul class="bullets">
+    <li>Colaboré en la administración y gestión del negocio de mi madre, fortaleciendo mis competencias en <strong>atención al cliente</strong>, <strong>ventas</strong> y <strong>operaciones comerciales</strong>.</li>
+    <li>Recientemente inicié mi propio <strong>emprendimiento</strong>, enfocado en la venta de <strong>pelucas, prendas de vestir y accesorios</strong>.</li>
+    <li>Gestiono las ventas mediante un grupo  llamado <strong>“CASARA”</strong>, brindando una experiencia de compra personalizada.</li>
+    <li>Encargada de la <strong>gestión de pedidos, control de inventario, comunicación con clientes y estrategias de promoción</strong>.</li>
+    <li>Desarrollo habilidades en <strong>marketing digital básico</strong> y en fidelización de clientes</li>
+  </ul>
+</div>
+
+
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CV & Resume -->
+  <section id="cv" class="section reveal">
+    <div class="container">
+      <h2>Mi CV & Resume</h2>
+      <p class="muted">Descarga mis documentos más recientes aquí:</p>
+      <div class="cv-buttons">
+        <a href="assets/cv disenado.pdf" target="_blank" class="btn primary">📄 Ver CV</a>
+        <a href="assets/Resume of VA.pdf" target="_blank" class="btn ghost">📑 Ver Resume</a>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- Certificados (NUEVO, separado) -->
+  <section id="certificates" class="section alt reveal">
+    <div class="container">
+      <h2>Certificados</h2>
+      <div class="edu-grid">
+        <div class="card">
+          <h3>Profesional & Técnico</h3>
+          <ul class="bullets">
+            <li>Biblioteca de Infraestructura de Tecnologías de la Información (ITIL)</li>
+            <li>Diseño Web Responsivo</li>
+            <li>Introducción a la Concienciación en Ciberseguridad</li>
+            <li>Ciencia de Datos y Analítica</li>
+            <li>Fundamentos de Soporte Técnico</li>
+            <li>Bits y Bytes de Redes de Computadoras</li>
+            <li>Experiencia Práctica en Infraestructura de TI</li>
+            <li>Convirtiéndose en un Usuario Avanzado de Sistemas Operativos</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Asistencia Virtual & Diseño</h3>
+          <ul class="bullets">
+            <li>Asistente Virtual — <strong>ALX</strong></li>
+            <li>Asistente Virtual — <strong>Alison</strong></li>
+            <li>Diseñador Gráfico — <strong>Alison</strong></li>
+            <li>Seminario de Redacción de Proyectos</li>
+            <li>Liderazgo Efectivo</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Otros</h3>
+          <ul class="bullets">
+            <li>Formulación y Maestría en Cuidado de la Piel</li>
+            <li>Estudiante Internacional del Año</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Proyectos -->
+<section id="projects" class="section reveal">
+  <div class="container">
+    <h2>Proyectos Seleccionados</h2>
+    <div class="grid">
+      <article class="project-card" tabindex="0" data-project="p1">
+        <div class="project-media"><img src="assets/picQA.jpg" alt="Vista previa UniQAMS"></div>
+        <div class="project-body"><h3>UniQAMS — Sistema de Aseguramiento de la Calidad</h3><p>Acreditación, evaluaciones y auditorías mediante una app móvil centralizada.</p></div>
+      </article>
+      <article class="project-card" tabindex="0" data-project="p2">
+        <div class="project-media"><img src="assets/colorpic.PNG" alt="Herramienta de reemplazo de color"></div>
+        <div class="project-body"><h3>Reemplazo de Color en Imágenes</h3><p>Sube imágenes y reemplaza colores con vista previa instantánea.</p></div>
+      </article>
+     <article class="project-card" tabindex="0" data-project="p6">
+  <div class="project-media"><img src="assets/Dog Owner (1).png" alt="App para dueños de perros"></div>
+  <div class="project-body">
+    <h3>PAWPAL – Dueño de Perros</h3>
+    <p>Una aplicación diseñada para dueños de perros que permite gestionar perfiles de mascotas, historiales de vacunación y datos de salud, además de administrar la información personal del usuario.</p>
+  </div>
+</article>
+
+      <article class="project-card" tabindex="0" data-project="p5">
+  <div class="project-media"><img src="assets/Productos.png" alt="Diseño UI Marketplace"></div>
+  <div class="project-body">
+    <h3>MANEN Marketplace</h3>
+    <p>Un marketplace digital diseñado para Guinea Ecuatorial, donde los usuarios pueden comprar y vender productos como muebles, ropa, coches y electrónicos.</p>
+  </div>
+</article>
+
+<article class="project-card" tabindex="0" data-project="va1">
+        <div class="project-media"><img src="assets/VA4.png" alt="Gestión de calendario VA"></div>
+        <div class="project-body"><h3>Gestión de Correo & Calendario para Consultores de Pequeñas Empresas</h3><p>Automatización de reuniones, recordatorios y flujos de trabajo.</p></div>
+      </article>
+      <article class="project-card" tabindex="0" data-project="va2">
+        <div class="project-media"><img src="assets/VA5.jpg" alt="Correo VA"></div>
+        <div class="project-body"><h3>Proyecto VA — Automatización de Correos & Tareas</h3><p>Gestión inteligente de la bandeja de entrada y enrutamiento de tareas.</p></div>
+      </article>
+      <article class="project-card" tabindex="0" data-project="va3">
+        <div class="project-media"><img src="assets/VA2.jpg" alt="Soporte VA"></div>
+        <div class="project-body"><h3>Asistencia de Soporte al Cliente para Negocio de E-commerce</h3><p>Sistema de tickets para la satisfacción del cliente.</p></div>
+      </article>
+      <article class="project-card" tabindex="0" data-project="va4">
+        <div class="project-media"><img src="assets/VA1.jpg" alt="Entrada de datos VA"></div>
+        <div class="project-body"><h3>Proyecto VA — Automatización de Entrada de Datos</h3><p>Automatización confiable de flujos de trabajo repetitivos.</p></div>
+      </article>
+
+    </div>
+
+    <!-- Galería de Diseño Gráfico -->
+<div class="design-gallery">
+  <h3>Muestras de Diseño Gráfico</h3>
+  <div class="design-grid">
+    <div class="design-card">
+      <img src="assets/1 (1).png" alt="Muestra de diseño gráfico 1" class="design-img">
+    </div>
+    <div class="design-card">
+      <img src="assets/2 (1).png" alt="Muestra de diseño gráfico 2" class="design-img">
+    </div>
+    <div class="design-card">
+      <img src="assets/3.png" alt="Muestra de diseño gráfico 3" class="design-img">
+    </div>
+    <div class="design-card">
+      <img src="assets/4.png" alt="Muestra de diseño gráfico 4" class="design-img">
+    </div>
+  </div>
+
+  <!-- Botón Ver Más Diseños -->
+  <div class="view-all">
+    <a href="https://drive.google.com/drive/folders/1iWuANYupXghd9NqGLqmuJF1W1Qc-hwUl"
+       target="_blank"
+       class="btn primary">
+       🎨 Ver Más Diseños
+    </a>
+  </div>
+</div>
+
+
+    <!-- NUEVO: Botón Ver Más -->
+    <div class="view-all">
+      <a href="https://drive.google.com/drive/folders/1UTj1NoRfyup7xgCpsDp0ddk0z8FN3e7V?usp=sharing"
+         target="_blank"
+         class="btn primary">
+         🚀 Ver Más Proyectos
+      </a>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<dialog id="project-modal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Cerrar modal">✕</button>
+    <h3 id="modal-title">Título del Proyecto</h3>
+    <p class="muted" id="modal-subtitle">Subtítulo</p>
+    <div class="modal-grid">
+      <div class="modal-media"><img id="modal-img" src="" alt=""></div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+    <div class="modal-actions">
+      <a id="modal-link" class="btn primary" target="_blank" rel="noopener">🚀 Pruébalo en Vivo</a>
+    </div>
+  </div>
+</dialog>
+
+
+</section>
+
+
+  <!-- Logros -->
+<section id="achievements" class="section reveal">
+  <div class="container">
+    <h2>Logros & Certificaciones</h2>
+    <p class="muted">Una colección de certificaciones, premios y reconocimientos que muestran mi experiencia.</p>
+
+    <div class="grid achievements-grid">
+      <!-- Certificado 1 -->
+      <div class="achievement-card">
+        <img src="assets/grad1.jpg" alt="ALX Asistente Virtual" class="cert-img" data-pdf="assets/VA1.pdf">
+        <h3>Graduada en Ciencias de la Computación</h3>
+      </div>
+
+      <!-- Certificado 3 -->
+      <div class="achievement-card">
+        <img src="assets/inter2.jpg" alt="Alison Diseño Gráfico" class="cert-img" data-pdf="assets/VA3.pdf">
+        <h3>Mejor Estudiante Internacional</h3>
+      </div>
+
+      <!-- Certificado 4 -->
+      <div class="achievement-card">
+        <img src="assets/Outstanding.jpg" alt="Certificación ITIL" class="cert-img" data-pdf="assets/VA4.pdf">
+        <h3>Estudiante Más Destacada del Año</h3>
+      </div>
+
+      <!-- Certificado 2 -->
+      <div class="achievement-card">
+        <img src="assets/googl1.PNG" alt="Asistente Virtual Alison" class="cert-img" data-pdf="assets/VA2.pdf">
+        <h3>Soporte Técnico de Google</h3>
+      </div>
+
+      
+    </div>
+
+    <!-- NUEVO: Botón Ver Más -->
+    <div class="view-all">
+      <a href="https://drive.google.com/drive/folders/1UTj1NoRfyup7xgCpsDp0ddk0z8FN3e7V?usp=sharing"
+         target="_blank"
+         class="btn primary">
+         📂 Ver Más Logros & Certificados
+      </a>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contacto -->
+  <section id="contact" class="section reveal">
+    <div class="container">
+      <h2>Trabajemos Juntos</h2>
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Detalles de Contacto</h3>
+          <ul class="bullets">
+            <li><strong>Correo:</strong> <a href="mailto:cndohoebana@gmail.com">cndohoebana@gmail.com</a></li>
+            <li><strong>Teléfono:</strong> <a href="tel:+233555678007">+233 55 567 8007</a></li>
+          </ul>
+        </div>
+
+        <form class="card contact-form"
+              action="https://formspree.io/f/manbvgkn"
+              method="POST"
+              accept-charset="UTF-8">
+          <h3>Enviar un Mensaje</h3>
+          <label>
+            <span>Nombre</span>
+            <input name="name" type="text" required>
+          </label>
+          <label>
+            <span>Correo</span>
+            <input name="email" type="email" required>
+          </label>
+          <label>
+            <span>Mensaje</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <input type="hidden" name="_captcha" value="false">
+          <button class="btn primary" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Pie de Página -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="brand-foot">MANENTECH</p>
+        <p class="muted tiny">© <span id="year"></span> Diseñado por María</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#certificates">Certificados</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/dashboard" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:cndohoebana@gmail.com">Correo</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
